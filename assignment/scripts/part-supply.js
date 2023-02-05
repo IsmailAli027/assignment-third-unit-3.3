@@ -65,6 +65,9 @@ for( items of supplyChanges){
     if(items > 0){
         console.log('Added x parts');
     }
+    if(items === 0){
+        console.log('No Change');
+    }
 }
 
 // 8. Write a loop to determine the total number of parts available by
