@@ -33,6 +33,8 @@ console.log('5. Adding 25 to supplyChanges.');
 let addedItem = supplyChanges.push(25); {
     console.log("The added item is", supplyChanges[5]);
 }
+// done question 5
+
 
 // 6. Write a `for` loop that shows each value in the 'supplyChanges' array
 //    Use a console.log formatted as follows, where x is the value from the array
