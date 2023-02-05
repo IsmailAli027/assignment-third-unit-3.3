@@ -53,7 +53,7 @@ for( let i=0; i<supplyChanges.length; i++) {
     if( supplyChanges [ i ] < 0){
         console.log('Removed x part');
     }
-}
+}  // done question 6
 
 
 // STRETCH GOALS
