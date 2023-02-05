@@ -42,16 +42,16 @@ let addedItem = supplyChanges.push(25); {
 //    - if the value is 0, log 'No Change.'
 //    - if the value is negative, format the log as 'Removed x parts.' 
 console.log('6. Showing supplyChanges...');
-for( let i=0; i<supplyChanges.length; i++) {
-    console.log('For loop', supplyChanges[i]);
-    if( supplyChanges [ i ] > 0){
-        console.log('Added x parts');
+for( let x=0; x<supplyChanges.length; x++) {
+    console.log('For loop', supplyChanges[x]);
+    if( supplyChanges [ x ] > 0){
+        console.log('Added',supplyChanges[x], 'parts');
     }
-    if( supplyChanges [ i ] === 0){
-        console.log('No Change');
+    if( supplyChanges [ x ] === 0){
+        console.log('No', supplyChanges[x], 'change');
     }
-    if( supplyChanges [ i ] < 0){
-        console.log('Removed x part');
+    if( supplyChanges [ x ] < 0){
+        console.log('Removed', supplyChanges[x], 'part');
     }
 }  // done question 6
 
