@@ -68,7 +68,10 @@ for( items of supplyChanges){
     if(items === 0){
         console.log('No Change');
     }
-}
+    if(items < 0){
+        console.log('Removed x part');
+    }
+} // done question 7
 
 // 8. Write a loop to determine the total number of parts available by
 //    adding up all the numbers in the 'supplyChanges' array.
